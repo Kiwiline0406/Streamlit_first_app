@@ -16,7 +16,7 @@ dico_images = {'Manhattan':'https://www.travelandleisure.com/thmb/1pUBfq--CfF0kw
 
 
 # Titre principal de l'application (affiché en haut de la page)
-st.title("Bienvenue sur la page de Kiwiline0406")
+st.title("Bienvenue sur le site web de Kiwiline0406")
 
 
 # Un menu déroulant où l'utilisateur peut sélectionner une seule option.
