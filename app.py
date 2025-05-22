@@ -29,6 +29,6 @@ if choice:
     st.write(f"Vous avez sélectionné : **{choice}**")
     # Affichage de l'image correspondante si elle existe
     if choice in dico_images:
-        st.image(dico_images[choice], caption=f"Vue de {choice}", use_column_width=True)
+        st.image(dico_images[choice], caption=f"Vue de {choice}", use_container_width=True)
     else:
         st.warning("Pas d'image disponible pour cet arrondissement.")
