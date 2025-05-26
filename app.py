@@ -10,7 +10,7 @@ df = pd.read_csv(url, sep=',')
 pickup_list= df['pickup_borough'].unique().tolist()
 dico_images = {'Manhattan':'https://www.travelandleisure.com/thmb/1pUBfq--CfF0kwVRYFs5P9RVPnw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/manhattanhenge-new-york-42nd-street-MNHTNHNGE0520-43a173535778405c989daf86add8e1a2.jpg',
                'Queens':'https://junehomes.com/blog/wp-content/uploads/2023/06/harry-gillen-c6fFCbbQky8-unsplash-1536x864.webp',
-               'Bronx':'https://www.reddit.com/r/nyc/comments/ke1orm/todays_sunset_from_bronx/#lightbox', 
+               'Bronx':'https://fr.web.img5.acsta.net/c_310_420/pictures/20/10/09/18/05/4227202.jpg', 
                'Brooklyn':'https://triptins.com/wp-content/uploads/2021/07/Brooklyn-Bridge-Sunrise-Photo-720x540.jpeg.webp', 
                'nan':'https://www.blind-magazine.com/fr/stories/sur-la-route/'}
 
